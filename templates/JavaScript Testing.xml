@@ -1,0 +1,13 @@
+<templateSet group="JavaScript Testing">
+  <template name="it" value="it('Should $NAME$', () =&gt; {&#10;  $END$&#10;}); " description="Inserts it() block" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="exeq" value="expect({...$START$}).toEqual({...$END$});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

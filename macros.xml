@@ -1,0 +1,9 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Reformat Code">
+      <action id="$SelectAll" />
+      <action id="ReformatCode" />
+      <action id="EditorEscape" />
+    </macro>
+  </component>
+</application>

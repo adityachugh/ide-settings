@@ -8,6 +8,7 @@
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="customTreeIndent" value="10" />
     <option name="accentColor" value="84ffff" />
+    <option name="tabsHeight" value="50" />
     <option name="darkTitleBar" value="true" />
   </component>
 </application>

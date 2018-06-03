@@ -29,6 +29,9 @@
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
+      <action id="InstallNodeLocalDependencies">
+        <abbreviation name="npmins" />
+      </action>
     </abbreviations>
   </component>
 </application>
